@@ -32,7 +32,8 @@
           </td>
           <td>
             <div class="text-center" @click="editTask(index)">
-              <span class="fa fa-pen pointer" style="cursor: pointer;"></span>
+              <span class="fa fa-pen pointer" style="">
+              </span>
             </div>
           </td>
           <td>
