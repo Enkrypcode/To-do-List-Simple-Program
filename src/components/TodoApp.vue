@@ -27,7 +27,7 @@
           <!-- FOR LOOP / UNIQUE ITERATION.. Reorder/reuse existing element-->
           <th>{{task.name}}</th>
           <td style="width: 120px;">
-            <span @click="changeStatus(index)" class="pointer">
+            <span @click="changeStatus(index)" class="pointer" style="cursor: pointer;">
               {{task.status}}</span>
           </td>
           <td>
@@ -58,7 +58,6 @@
         task: '',
         editedTask: null,
         availableStatuses: ['To-do', 'In-progress', 'Finished'],
-
         tasks: []
       }
     },
